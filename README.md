@@ -8,4 +8,4 @@ A Website built with NodeJS and Angular.
 2. Install the application: `npm install`
 3. Run `bower install`
 3. Start the server: `node server.js`
-4. View in browser at `http://localhost:8080`
+4. View in browser at `http://localhost`
