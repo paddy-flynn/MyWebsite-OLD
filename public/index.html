@@ -23,20 +23,16 @@
 <body ng-app="myApp" class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
-        <div class="mdl-layout--large-screen-only mdl-layout__header-row"></div>
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
             <h3>Patrick Flynn - Web Developer</h3>
         </div>
-        <div class="mdl-layout--large-screen-only mdl-layout__header-row"></div>
-
-
         <div ng-controller="AppCtrl" class="mdl-js-ripple-effect mdl-color--primary-dark">
-            <a ng-class="{ active: isActive('/about')}" href="/#/about" class="mdl-layout__tab">About Me</a>
-            <a ng-class="{ active: isActive('/skills')}" href="/#/skills" class="mdl-layout__tab">Skills</a>
-            <a ng-class="{ active: isActive('/experience')}" href="/#/experience" class="mdl-layout__tab">Experience</a>
-            <a href="/#/interests" class="mdl-layout__tab">Interests</a>
-            <a href="/#/projects" class="mdl-layout__tab">Projects</a>
-            <a href="/#/faq" class="mdl-layout__tab">FAQ</a>
+            <a ng-class="{ active: isActive('/#/about')}" href="/#/about" class="mdl-layout__tab">About Me</a>
+            <a ng-class="{ active: isActive('/#/skills')}" href="/#/skills" class="mdl-layout__tab">Skills</a>
+            <a ng-class="{ active: isActive('/#/experience')}" href="/#/experience" class="mdl-layout__tab">Experience</a>
+            <a ng-class="{ active: isActive('/#/interests')}" href="/#/interests" href="/#/interests" class="mdl-layout__tab">Interests</a>
+            <a ng-class="{ active: isActive('/#/projects')}" href="/#/projects" href="/#/projects" class="mdl-layout__tab">Projects</a>
+            <a ng-class="{ active: isActive('/#/faq')}" href="/#/faq" href="/#/faq" class="mdl-layout__tab">FAQ</a>
         </div>
     </header>
 </div>
