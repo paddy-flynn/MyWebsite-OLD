@@ -91,3 +91,6 @@
     color: #ffd8a6;
     text-decoration: none;
 }
+.borderless td, .borderless th, .borderless tr {
+    border: none !important;
+}
