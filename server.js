@@ -16,9 +16,9 @@ var app = connect()
     });
 
 // Start node server listening on specified port -----
-http.createServer(app).listen(8080);
+http.createServer(app).listen(80);
 
-console.log('HTTP server listening on port 8080');
+console.log('HTTP server listening on port 80');
 
 // // set up ======================================================================
 // var express = require('express');
